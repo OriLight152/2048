@@ -1,7 +1,7 @@
 /*
  * @Author: OriLight
  * @Date: 2022-04-26 20:14:53
- * @LastEditTime: 2022-04-27 21:27:56
+ * @LastEditTime: 2022-05-09 19:39:51
  */
 // Constant
 CANVAS_SIZE = 600
@@ -320,7 +320,7 @@ class View {
         let span = document.createElement('span')
         let text = document.createTextNode(number)
         let block = this.drawBackgroundBlock(i, j, BLOCK_BACKGROUND_COLOR[number])
-        if (number>=8){
+        if (number >= 8) {
             span.style.color = '#fff'
         }
         span.style.fontSize = `${FONT_SIZE}px`
